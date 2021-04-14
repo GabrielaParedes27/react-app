@@ -1,38 +1,42 @@
+body {
+  font-family: "Ubuntu", sans-serif;
+}
 .App {
-  text-align: center;
+  display: inline-block;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h2 {
+  color: gray;
+  font-weight: 500;
+  font-size: 35px;
+  font-weight: bold;
+  line-height: 28px;
+}
+.weather-app {
+  width: 800px;
+  margin: 30px 0 auto;
+  padding: 20px;
+  border: 1px solid #f9f7fe;
+  border-radius: 10px;
+  background-image: #fdfbfb;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.ppal-temp .active {
+  color: rgb(33, 33, 33);
+  cursor: default;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.ppal-temp .active:hover {
+  text-decoration: none;
+}
+.location-icon {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  height: 100%;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  color: gray;
+  font-weight: 500;
+  font-size: 35px;
+  font-weight: bold;
+  line-height: 28px;
 }
