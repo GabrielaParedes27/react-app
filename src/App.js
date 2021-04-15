@@ -30,7 +30,7 @@ function App() {
       </div>
       <small>
         <a
-          href="https://github.com/GabrielaParedes27/vanilla-weather-app.git"
+          href="https://github.com/GabrielaParedes27/react-app.git"
           target="blank"
         >
           Open-source code
